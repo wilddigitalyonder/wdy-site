@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Wild Digital Yonder`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ben Eichorst`,
+      summary: `this is a placeholder summary of the author`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A blog about business and technology with hints of sarcasm and snark.`,
+    siteUrl: `https://wilddigitalyonder.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `beneichorst`,
     },
   },
   plugins: [
@@ -105,7 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Wild Digital Yonder RSS Feed",
           },
         ],
       },
@@ -113,8 +113,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Wild Digital Yonder Blog`,
+        short_name: `WDYBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
